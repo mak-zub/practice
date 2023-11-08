@@ -1,78 +1,89 @@
 <!DOCTYPE html>
-<html lang = "uk">
+<html lang="uk">
 <head>
 	<title>Друзі</title>
-	<meta charset = "utf-8">
+	<meta charset="utf-8">
 	<style>
+		h1 {
+			text-align: center;
+			font-size: 22px;
+		}
+
+		a[href="index.html"] {
+			font-style: italic;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
 		table {
 			border-collapse: collapse;
-			width:100%;
+			width: 100%;
 		}
-		th,td {
+
+		th, td {
 			border: 1px solid rgb(7, 5, 5);
 			padding: 8px;
 			text-align: left;
-
-			
 		}
-		tr:nth-child(even){
+
+		tr:nth-child(even) {
 			background-color: #ffffffe7;
 		}
-		</style>
+
+		th {
+			background-color: green;
+			color: white;
+			font-weight: bold;
+			text-align: center;
+		}
+        td {text-align: center}
+		td:last-child {
+			text-align: right;
+		}
+	</style>
 </head>
 <body>
-	
-	<h1>Друзі  Зуб'юка Максима Дмитровича</h1>
-
-	<a href = "index.html">Назад на головну</a>
-
+	<h1>Друзі Зуб'юка Максима Дмитровича</h1>
+	<a href="index.html">Назад на головну</a>
 	<h2>Мої Друзі</h2>
-	
-  <table>
-
+	<table>
 		<tr>
-			<td>Прізвище</td>
-			<td>Ім'я</td>
-			<td>Дата народження</td>
-			<td>Адреса проживання</td>
-			<td>Контактний номер</td>
-		 </tr>
-		
-	  <tr>
-		<td>Бабабуй</td>
-		<td>Арут</td>
-		<td>11.09.2004</td>
-		<td>Довженка 999</td>
-		<td>0973242433</td>
-	  </tr>
-      
-	  <tr> 
-		<td>Вальський</td>
-		<td>Данило</td>
-		<td>24.13.2005</td>
-		<td>Верховина</td>
-		<td>0683338767</td>
-	  </tr>
-
-	  <tr>
-		<td>Барський</td>
-		<td>Віктор</td>
-		<td>01.01.2005</td>
-		<td>Бандери 8</td>
-		<td>0448922921</td>
-	  </tr>
-
-	  <tr>
-		<td>Полоз</td>
-		<td>Максим</td>
-		<td>12.07.2005</td>
-		<td>Верховина</td>
-		<td>0987786790</td>
-	  </tr>
-
- </table>	
-	
-
-
+			<th>Прізвище</th>
+			<th>Ім'я</th>
+			<th>Дата народження</th>
+			<th>Адреса проживання</th>
+			<th>Контактний номер</th>
+		</tr>
+		<tr>
+			<td>Бабабуй</td>
+			<td>Арут</td>
+			<td>11.09.2004</td>
+			<td>Довженка 999</td>
+			<td>0973242433</td>
+		</tr>
+		<tr>
+			<td>Вальський</td>
+			<td>Данило</td>
+			<td>24.13.2005</td>
+			<td>Верховина</td>
+			<td>0683338767</td>
+		</tr>
+		<tr>
+			<td>Барський</td>
+			<td>Віктор</td>
+			<td>01.01.2005</td>
+			<td>Бандери 8</td>
+			<td>0448922921</td>
+		</tr>
+		<tr>
+			<td>Полоз</td>
+			<td>Максим</td>
+			<td>12.07.2005</td>
+			<td>Верховина</td>
+			<td>0987786790</td>
+		</tr>
+	</table>
 </body>
 </html>
