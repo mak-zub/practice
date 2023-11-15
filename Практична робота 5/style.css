@@ -28,8 +28,8 @@ h1{
 }
 
 .block {
-    background-color: #d50000;
-    border: 1px solid #000000;
+  background-color: #91bbe4;
+    border: 2px solid #000000;
     margin: 10px;
     padding: 15px;
     box-sizing: border-box;
