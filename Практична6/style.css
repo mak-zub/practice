@@ -1,0 +1,49 @@
+a {
+    color: #ea2611;
+}
+
+a:visited {
+    color: #04148d;
+}
+
+h1 {
+    
+    text-align: center;
+    font-size: 24px; 
+}
+p {
+    font-size: 120%; 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav div {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+ 
+  @media only screen and  (max-width: 992px) {
+    nav {
+      flex-wrap: wrap;
+    }
+  
+    nav div {
+      flex-basis: 50%;
+    }
+  }
+  
+ 
+ 
+  
+  @media only screen and (max-width: 767px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav div {
+      flex-grow: initial;
+    }
+  }

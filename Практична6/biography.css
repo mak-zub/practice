@@ -1,0 +1,65 @@
+.button {
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 0, 0);
+    padding: 1px;
+    text-align: left;
+    background-color: rgba(0, 0, 255, 0.732);
+    width: 17%;
+}
+
+.button:hover {
+    background-color: magenta;
+}
+
+.button:active {
+    background-color: yellow;
+}
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+}
+p {
+    font-size: 120%;
+    
+    
+
+}
+
+ul {
+    font-size: 140%;
+}
+
+h2 {
+    font-size: 145%;
+}
+
+a[href="#contents"] {
+    font-weight: bold;
+}
+
+a[href="index.html"] {
+    font-style: italic;
+}
+
+a[href="#content"] {
+    text-transform: uppercase;
+}
+
+.block1, .block2, .block3, .block4, .block5 {
+    border: 1px solid black; 
+    padding: 10px; 
+    margin: 10px 0;
+    max-width: 520px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+ 
+  
