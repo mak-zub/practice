@@ -1,0 +1,56 @@
+
+td,tr{border: 1px solid rgb(7, 5, 5);
+			padding: 8px;
+}
+    
+            th {
+               
+               
+                font-weight: bold;
+                text-align: center;
+            }
+           
+            
+
+    .block1{
+        background-color: rgb(160, 252, 120);
+    }
+    .block2{
+        background-color: rgb(249, 230, 107);
+    }
+    .block3{
+        background-color: rgb(0, 255, 238);
+    }
+    .block4{
+        background-color: rgb(193, 237, 174);
+    }
+    .beta{
+        background-color: rgb(30, 32, 29);
+        color: aliceblue;
+        padding: 5px; 
+        margin: 5px 0;
+        max-width: 50px;
+    }
+    .alpha{
+        background-color: rgb(30, 32, 29);
+        color: aliceblue;
+        padding: 5px; 
+        margin: 5px 0;
+        max-width: 100px;
+    }
+    .romeo{
+        background-color: rgb(30, 32, 29);
+        color: aliceblue;
+        padding: 5px; 
+        margin: 5px 0;
+        max-width: 130px;
+    }
+    .omega{
+    
+    background-color: rgb(30, 32, 29);
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px 0;
+    max-width: 110px;
+    }
+   
